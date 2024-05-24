@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz_game">QUIZ GAME</string>
+    <string name="quiz_image">quiz image</string>
+    <string name="timer">0 секунд</string>
+    <string name="question">Question</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+    <string name="_0">0</string>
+    <string name="divider">/</string>
+    <string name="you_passed">Вы прошли викторину за</string>
+    <string name="congratulations">Поздравляем!</string>
+    <string name="time">0:00</string>
+    <string name="result_correct">0 правильных ответов</string>
+    <string name="result_wrong">0 неправильных ответов</string>
+    <string name="restart">Начать заново</string>
+</resources>

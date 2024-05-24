@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_game"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nunito_black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bordered_bg"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/nunito"
+                android:text="@string/congratulations"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/passed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/you_passed"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito"
+                    android:layout_marginEnd="4dp"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/result_correct"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/result_green"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/result_correct"
+            android:textAlignment="viewStart"
+            android:textColor="@color/option_green"
+            android:textSize="16sp"
+            app:cornerRadius="12dp"
+            app:icon="@drawable/result_correct"
+            app:iconTintMode="multiply"
+            app:strokeColor="@color/option_green"
+            app:strokeWidth="2dp" />
+        <Button
+            android:id="@+id/result_wrong"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/result_red"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/result_wrong"
+            android:textAlignment="viewStart"
+            android:textColor="@color/option_red"
+            android:textSize="16sp"
+            app:cornerRadius="12dp"
+            app:icon="@drawable/result_wrong"
+            app:iconTintMode="multiply"
+            app:strokeColor="@color/option_red"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="32dp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/restart"
+            app:iconTint="@color/black"
+            android:text="@string/restart"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="question">#FF343D63</color>
+
+    <color name="gray">#FFD2CECE</color>
+    <color name="text_gray">#FF978F8F</color>
+
+    <color name="option_green">#6AC259</color>
+    <color name="option_bg_green">#DBF0D7</color>
+    <color name="result_green">#2A364B</color>
+
+    <color name="option_red">#CE3838</color>
+    <color name="option_bg_red">#F3D7D7</color>
+    <color name="result_red">#302F4B</color>
+
+    <color name="progress_green">#FF6AC259</color>
+    <color name="progress_yellow">#FFF3CB65</color>
+    <color name="progress_red">#FFE45151</color>
+</resources>
